@@ -70,7 +70,6 @@ export default function GamesPage() {
     };
     }, []);
 
-  // گرفتن لیست بازی‌ها
   useEffect(() => {
     let cancelled = false;
 

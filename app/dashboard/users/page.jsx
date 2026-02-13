@@ -36,7 +36,6 @@ export default function UsersPage() {
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState("");
 
-  // وقتی سرچ عوض شد، برگرد صفحه 1
   useEffect(() => {
     setPage(1);
   }, [debouncedQ]);

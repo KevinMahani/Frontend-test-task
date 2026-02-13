@@ -32,7 +32,6 @@ export default function LoginPage() {
     try {
       const data = await loginUser(username, password);
 
-      // ذخیره توکن
       localStorage.setItem("token", data.token);
       localStorage.setItem("user", JSON.stringify(data));
 

@@ -103,7 +103,6 @@ export default function GameDetailsPage() {
 
               <Divider />
 
-              {/* RAWG گاهی description_html می‌دهد. ما ساده نمایش می‌دهیم */}
               <Text opacity={0.9} whiteSpace="pre-wrap">
                 {game.description_raw || "No description."}
               </Text>
