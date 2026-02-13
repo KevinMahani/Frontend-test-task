@@ -18,7 +18,7 @@ export default function DashboardLayout({ children }) {
       {/* Sidebar */}
       <Box
         w="250px"
-        bg="gray.800"
+        bg="#2D3748"
         color="white"
         p={6}
       >
@@ -35,9 +35,10 @@ export default function DashboardLayout({ children }) {
             Products
           </ChakraLink>
 
-          <ChakraLink as={Link} href="/games">
+          <ChakraLink as={Link} href="/dashboard/games">
             Games
           </ChakraLink>
+
 
           <ChakraLink onClick={logout} cursor="pointer">
             Logout

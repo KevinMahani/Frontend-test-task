@@ -12,6 +12,8 @@ export default function DashboardPage() {
 
     if (!token) {
       router.replace("/login");
+    }else {
+      router.replace("/dashboard/games");
     }
   }, [router]);
 
@@ -22,11 +24,13 @@ export default function DashboardPage() {
   };
 
   return (
-    <Container maxW="lg" py={12}>
+    <Container 
+    maxW="lg" 
+    py={12}>
       <Stack spacing={4}>
         <Heading size="md">Dashboard</Heading>
         <Button onClick={logout} variant="outline">
-          خروج
+          Logout
         </Button>
       </Stack>
     </Container>

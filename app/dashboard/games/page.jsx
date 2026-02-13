@@ -229,7 +229,7 @@ const platformItems = useMemo(() => {
                     Released: {game.released || "-"}
                   </Text>
 
-                  <Button as={Link} href={`/dashboard/games/${game.id}`} size="sm" w="100%">
+                  <Button as={Link} href={`/games/${game.id}`} size="sm" w="100%">
                     Details
                   </Button>
                 </Box>

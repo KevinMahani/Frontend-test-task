@@ -38,3 +38,22 @@ npm or yarn
 
 Setup & Run
 npm install
+
+
+
+## Routes
+
+### Auth / Dashboard
+- `/login`
+- `/dashboard`
+- `/dashboard/users`
+- `/dashboard/users/[id]`
+- `/dashboard/products`
+- `/dashboard/products/[id]`
+
+### RAWG Games
+- `/games`
+- `/games/[id]`
+
+### Advanced Select Demo
+- `/advanced-select`
